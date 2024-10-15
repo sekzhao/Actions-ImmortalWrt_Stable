@@ -15,3 +15,7 @@
 
 # 添加feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+
+#添加mihomo
+echo "src-git mihomo https://github.com/morytyann/OpenWrt-mihomo.git;main" >> "feeds.conf.default"
+
